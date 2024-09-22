@@ -1,0 +1,47 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment directories
+venv/
+env/
+.venv/
+.env/
+ENV/
+.Python
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Django specific files
+db.sqlite3
+/staticfiles/
+/media/
+
+# Local environment variables
+.env
+
+# Migrations
+migrations/
+*/migrations/
+
+# Pytest and coverage results
+*.cover
+.coverage
+.hypothesis/
+.pytest_cache/
+
+# IDE and Editor specific files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Log files
+*.log
+
+# Other cache files and metadata
+*.bak
+*.tmp
+.DS_Store
+Thumbs.db
